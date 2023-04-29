@@ -6,7 +6,7 @@
 title: Aurora-flower Blog # 标题
 subtitle: 'HuaYin Notes blog'  # 副标题
 description: '用于记录的个人 Blog 网站'  # 描述
-keywords: "Aurora-flower", HuaYin # 关键字
+keywords:  # 关键字
 author: Aurora-flower # 作者
 language: zh  # 语言
 timezone: 'Asia/Shanghai' # 时区
