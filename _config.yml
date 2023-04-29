@@ -30,29 +30,29 @@ code_dir: downloads/code # 包括代码目录（子目录source_dir)
 i18n_dir: :lang # i18n 目录
 skip_render: # 将复制到原始而不呈现的路径。您可以使用 glob 表达式进行路径匹配。public
 
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
+# Writing 写作
+new_post_name: :title.md # 新帖子的文件名格式 - File name of new posts
+default_layout: post # 默认布局
+titlecase: false # 	将标题转换为标题大小写 - Transform title into titlecase
 external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
-  exclude: ''
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
+  enable: true # 在新标签页中打开外部链接 - Open external links in new tab
+  field: site # 适用于全部或仅适用于 site post - Apply to the whole site
+  exclude: '' # 排除主机名。指定子域（如果适用），包括www
+filename_case: 0 # 将文件名转换为小写; 大写12
+render_drafts: false  # 渲染（显示）草稿
+post_asset_folder: true # 是否启用资产文件夹
+relative_link: false # 创建相对于根文件夹的链接
+future: true # 显示未来的帖子
+highlight: # 代码块语法突出显示设置
+  enable: true # 使
+  line_number: true # 行号
+  auto_detect: ture # 自动检测
+  tab_replace: '' # 选项卡替换
+  wrap: true # 包装
   hljs: false
-prismjs:
+prismjs: # 棱镜 - 代码块语法突出显示设置
   enable: false
-  preprocess: true
+  preprocess: true # 预处理
   line_number: true
   tab_replace: ''
 
