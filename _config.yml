@@ -20,15 +20,15 @@ pretty_urls: # 将永久链接变量重写为漂亮的网址
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
+# Directory 目录
+source_dir: source  # 源文件夹。内容的存储位置
+public_dir: public # 公用文件夹。静态站点的生成位置
+tag_dir: tags # 标签目录
+archive_dir: archives # 存档目录
+category_dir: categories # 类别目录
+code_dir: downloads/code # 包括代码目录（子目录source_dir)
+i18n_dir: :lang # i18n 目录
+skip_render: # 将复制到原始而不呈现的路径。您可以使用 glob 表达式进行路径匹配。public
 
 # Writing
 new_post_name: :title.md # File name of new posts
