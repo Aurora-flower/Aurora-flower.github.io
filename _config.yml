@@ -67,9 +67,9 @@ index_generator: # 生成帖子存档，由六角形生成器索引提供支持
   pagination_dir: # URL 格式
 
 # Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
+default_category: uncategorized  # 默认类别
+category_map: # 类别 映射
+tag_map: # 标签 映射
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
