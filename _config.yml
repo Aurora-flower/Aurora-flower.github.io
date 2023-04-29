@@ -79,10 +79,14 @@ meta_generator: true
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+date_format: YYYY-MM-DD # 日期格式
+time_format: HH:mm:ss # 时间格式
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+# mtime：使用文件修改日期作为 。这是自 3.0.0 以来 Hexo 的默认行为 updated
+# date：用作 。当文件修改日期可能不同时，通常与 Git 工作流一起使用。date updated
+# empty：未提供时只需删除即可。可能与大多数主题和插件不兼容。updated
+updated_option: 'mtime' # 控制前言中未提供的值
+
 
 # Pagination
 ## Set per_page to 0 to disable pagination
