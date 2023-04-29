@@ -100,12 +100,16 @@ include:
 exclude:
 ignore:
 
-# Extensions
+# Extensions 扩展
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: landscape # 主题名称  landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+#  repository: https://github.com/Aurora-flower/Aurora-flower.github.io.git
+  repository: git@github.com:Aurora-flower/Aurora-flower.github.io.git
+  branch: master
+
