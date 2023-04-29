@@ -13,12 +13,12 @@ timezone: 'Asia/Shanghai' # 时区
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+url: https://Aurora-flower.github.io # URL
+permalink: :year/:month/:day/:title/ # 路由格式 - 永久链接
+permalink_defaults: # 永久链接中每个段的默认值
+pretty_urls: # 将永久链接变量重写为漂亮的网址
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
