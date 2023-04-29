@@ -104,8 +104,9 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape # 主题名称  landscape
+theme_config:  # 主题配置。在此键下包含任何自定义主题设置以覆盖主题默认值
 
-# Deployment
+# Deployment 部署
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
