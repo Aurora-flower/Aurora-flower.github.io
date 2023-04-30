@@ -111,7 +111,7 @@ theme: landscape # 主题名称  landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-#  repository: https://github.com/Aurora-flower/Aurora-flower.github.io.git
+  #  repository: https://github.com/Aurora-flower/Aurora-flower.github.io.git
   repository: git@github.com:Aurora-flower/Aurora-flower.github.io.git
-  branch: master
+  branch: gh-pages
 
