@@ -41,6 +41,9 @@ external_link:
 filename_case: 0 # 将文件名转换为小写; 大写12
 render_drafts: false  # 渲染（显示）草稿
 post_asset_folder: true # 是否启用资产文件夹
+marked:
+  prependRoot: true # 前置根
+  postAsset: true # 发布资产
 relative_link: false # 创建相对于根文件夹的链接
 future: true # 显示未来的帖子
 highlight: # 代码块语法突出显示设置
