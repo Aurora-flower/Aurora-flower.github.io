@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我的第一篇博客
+title: 初见 hexo
 date: 2024-06-30 04:40:12
 categories: [初见 hexo]
 tags: [Hexo]
@@ -10,7 +10,7 @@ tags: [Hexo]
 
 ### 创建新文章
 
-```bash
+```shell
 $ hexo new "我的新文章"
 ```
 
@@ -21,7 +21,7 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 
 草图是未发布的文章，可以通过以下命令查看和发布草图：
 
-```bash
+```shell
 $ hexo draft "草稿标题" # 创建草稿
 $ hexo generate --draft # 生成包含草稿的静态文件以预览
 $ hexo publish draft 草稿文件ID # 发布草稿
@@ -29,7 +29,7 @@ $ hexo publish draft 草稿文件ID # 发布草稿
 
 ### 启动服务器
 
-``` bash
+``` shell
 $ hexo server
 ```
 
@@ -37,7 +37,7 @@ More info: [Server](https://hexo.io/docs/server.html)
 
 ### 生成静态文件
 
-``` bash
+``` shell
 $ hexo generate
 ```
 
@@ -45,7 +45,7 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 
 ### 部署到远程站点
 
-``` bash
+``` shell
 $ hexo deploy
 ```
 

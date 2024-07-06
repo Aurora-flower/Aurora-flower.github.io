@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Aurora-flower Blog # 标题
-subtitle: 'HuaYin Notes blog'  # 副标题
-description: '用于记录的个人 Blog 网站'  # 描述
-keywords:  # 关键字
+title: 花楹一间  # 标题
+subtitle: HuaYin Notes blog  # 副标题
+description: Aurora-flower - 用于记录的个人 Blog 网站  # 描述
+keywords: 花楹一间# 关键字
 author: Aurora-flower # 作者
-language: zh  # 语言
+language: zh-CN  # 语言
 timezone: 'Asia/Shanghai' # 时区
 
 # URL
@@ -107,7 +107,7 @@ ignore: # 忽略文件/文件夹
 # Extensions 扩展
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape # 主题名称  landscape
+theme: next # 主题名称  landscape
 #theme_config:  # 主题配置。在此键下包含任何自定义主题设置以覆盖主题默认值
 
 # Deployment 部署

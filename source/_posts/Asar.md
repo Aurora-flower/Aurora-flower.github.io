@@ -2,7 +2,8 @@
 layout: post
 title: Asar
 date: 2024-06-30 04:59:50
-tags: [Asar]
+categories: [扩展]
+tags: [Asar, 扩展学习]
 ---
 
 ASAR 归档是一种专为 Electron 应用设计的简单的扩展存档格式，可以缓解 Windows 上长路径名的问题，加快 require 速度并隐藏源代码。
