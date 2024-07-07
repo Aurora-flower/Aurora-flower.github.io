@@ -19,29 +19,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"aurora-flower.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="ASAR（Archive for ASar）归档是一种专为 Electron 应用设计的简单扩展存档格式。它旨在缓解 Windows 平台上的长路径名问题，提升require速度，并保护源代码不被轻易修改。  ASAR通过将文件夹结构打包成一个二进制文件，简化了 Electron 应用的资源文件管理。这种格式便于分发和部署应用，同时也提供了性能和安全性方面的改善。 使用 ASAR 格式的主要好处包">
+    <meta name="description" content="快速上手创建新文章1hexo new &quot;我的新文章&quot;  More info: Writing 使用草图草图是未发布的文章，可以通过以下命令查看和发布草图： 123hexo draft &quot;草稿标题&quot; # 创建草稿hexo generate --draft # 生成包含草稿的静态文件以预览hexo publish draft 草稿文件ID # 发布草稿  启动服">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Asar 文件的解压缩">
-<meta property="og:url" content="https://aurora-flower.github.io/2024/06/30/Asar-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
+<meta property="og:title" content="初见 hexo">
+<meta property="og:url" content="https://aurora-flower.github.io/2024/06/29/Hexo/">
 <meta property="og:site_name" content="花楹一间">
-<meta property="og:description" content="ASAR（Archive for ASar）归档是一种专为 Electron 应用设计的简单扩展存档格式。它旨在缓解 Windows 平台上的长路径名问题，提升require速度，并保护源代码不被轻易修改。  ASAR通过将文件夹结构打包成一个二进制文件，简化了 Electron 应用的资源文件管理。这种格式便于分发和部署应用，同时也提供了性能和安全性方面的改善。 使用 ASAR 格式的主要好处包">
+<meta property="og:description" content="快速上手创建新文章1hexo new &quot;我的新文章&quot;  More info: Writing 使用草图草图是未发布的文章，可以通过以下命令查看和发布草图： 123hexo draft &quot;草稿标题&quot; # 创建草稿hexo generate --draft # 生成包含草稿的静态文件以预览hexo publish draft 草稿文件ID # 发布草稿  启动服">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-06-29T20:58:07.000Z">
-<meta property="article:modified_time" content="2024-07-07T00:12:41.999Z">
+<meta property="article:published_time" content="2024-06-29T20:40:12.000Z">
+<meta property="article:modified_time" content="2024-07-07T16:56:01.316Z">
 <meta property="article:author" content="Aurora-flower">
-<meta property="article:tag" content="Asar">
-<meta property="article:tag" content="扩展学习">
+<meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://aurora-flower.github.io/2024/06/30/Asar-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
+<link rel="canonical" href="https://aurora-flower.github.io/2024/06/29/Hexo/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://aurora-flower.github.io/2024/06/30/Asar-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/","path":"2024/06/30/Asar-文件的解压缩/","title":"Asar 文件的解压缩"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://aurora-flower.github.io/2024/06/29/Hexo/","path":"2024/06/29/Hexo/","title":"初见 hexo"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Asar 文件的解压缩 | 花楹一间</title>
+<title>初见 hexo | 花楹一间</title>
   
 
 
@@ -107,7 +106,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-asar-%E5%B7%A5%E5%85%B7"><span class="nav-number">1.</span> <span class="nav-text">安装 asar 工具</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8E%8B%E7%BC%A9%E4%B8%8E%E8%A7%A3%E5%8E%8B"><span class="nav-number">2.</span> <span class="nav-text">压缩与解压</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E5%91%BD%E4%BB%A4"><span class="nav-number"></span> <span class="nav-text">其他命令</span></a></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B"><span class="nav-number">1.</span> <span class="nav-text">快速上手</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E6%96%B0%E6%96%87%E7%AB%A0"><span class="nav-number">1.1.</span> <span class="nav-text">创建新文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E8%8D%89%E5%9B%BE"><span class="nav-number">1.2.</span> <span class="nav-text">使用草图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">1.3.</span> <span class="nav-text">启动服务器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6"><span class="nav-number">1.4.</span> <span class="nav-text">生成静态文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2%E5%88%B0%E8%BF%9C%E7%A8%8B%E7%AB%99%E7%82%B9"><span class="nav-number">1.5.</span> <span class="nav-text">部署到远程站点</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -156,7 +155,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://aurora-flower.github.io/2024/06/30/Asar-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
+    <link itemprop="mainEntityOfPage" href="https://aurora-flower.github.io/2024/06/29/Hexo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -169,12 +168,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Asar 文件的解压缩 | 花楹一间">
+      <meta itemprop="name" content="初见 hexo | 花楹一间">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Asar 文件的解压缩
+          初见 hexo
         </h1>
 
         <div class="post-meta-container">
@@ -185,14 +184,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2024-06-30 04:58:07" itemprop="dateCreated datePublished" datetime="2024-06-30T04:58:07+08:00">2024-06-30</time>
+      <time title="创建时间：2024-06-30 04:40:12" itemprop="dateCreated datePublished" datetime="2024-06-30T04:40:12+08:00">2024-06-30</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-07-07 08:12:41" itemprop="dateModified" datetime="2024-07-07T08:12:41+08:00">2024-07-07</time>
+      <time title="修改时间：2024-07-08 00:56:01" itemprop="dateModified" datetime="2024-07-08T00:56:01+08:00">2024-07-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -200,7 +199,7 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%89%A9%E5%B1%95/" itemprop="url" rel="index"><span itemprop="name">扩展</span></a>
+          <a href="/categories/%E5%88%9D%E8%A7%81-hexo/" itemprop="url" rel="index"><span itemprop="name">初见 hexo</span></a>
         </span>
     </span>
 
@@ -213,39 +212,21 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>ASAR（Archive for ASar）归档是一种专为 Electron 应用设计的简单扩展存档格式。它旨在缓解 Windows 平台上的长路径名问题，提升<code>require</code>速度，并保护源代码不被轻易修改。</p>
-<blockquote>
-<p>ASAR通过将文件夹结构打包成一个二进制文件，简化了 Electron 应用的资源文件管理。这种格式便于分发和部署应用，同时也提供了性能和安全性方面的改善。</p>
-<p>使用 ASAR 格式的主要好处包括减少文件数量和大小，加快文件访问速度。在 Electron 应用中，由于模块加载机制，使用 ASAR 格式可以减少文件 I&#x2F;O 操作，从而提高<code>require</code>速度。</p>
-<p>此外，ASAR 格式通过打包资源文件，可以防止用户直接修改应用的内部文件，从而提高安全性。然而，这并不意味着 ASAR 提供了高级别的安全防护，有经验的用户或攻击者仍然可能找到绕过的方法。</p>
-</blockquote>
-<h4 id="安装-asar-工具"><a href="#安装-asar-工具" class="headerlink" title="安装 asar 工具"></a>安装 asar 工具</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">全局安装</span></span><br><span class="line">npm install -g asar</span><br></pre></td></tr></table></figure>
+    <div class="post-body" itemprop="articleBody"><h2 id="快速上手"><a href="#快速上手" class="headerlink" title="快速上手"></a>快速上手</h2><h3 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;我的新文章&quot;</span><br></pre></td></tr></table></figure>
 
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="使用草图"><a href="#使用草图" class="headerlink" title="使用草图"></a>使用草图</h3><p>草图是未发布的文章，可以通过以下命令查看和发布草图：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo draft &quot;草稿标题&quot; # 创建草稿</span><br><span class="line">hexo generate --draft # 生成包含草稿的静态文件以预览</span><br><span class="line">hexo publish draft 草稿文件ID # 发布草稿</span><br></pre></td></tr></table></figure>
 
-<h4 id="压缩与解压"><a href="#压缩与解压" class="headerlink" title="压缩与解压"></a>压缩与解压</h4><ol>
-<li><strong>解压</strong>:</li>
-</ol>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash"> extract|e &lt;archive&gt; &lt;dest&gt;            extract archive</span></span><br><span class="line">asar extract app.asar(源asar文件) app(目标解压文件夹)</span><br></pre></td></tr></table></figure>
+<h3 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
 
-<ol start="2">
-<li><strong>压缩</strong>:</li>
-</ol>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash"> pack|p [options] &lt;<span class="built_in">dir</span>&gt; &lt;output&gt;       create asar archive</span></span><br><span class="line">asar pack app(目标解压文件夹) app.asar(源asar文件)</span><br></pre></td></tr></table></figure>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 
-
-<h3 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h3><ol>
-<li><strong>列出归档文件与目录</strong>:</li>
-</ol>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash"> list|l [options] &lt;archive&gt;            list files of asar archive</span></span><br><span class="line">asar list app.asar(源asar文件)</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li><strong>提取单个文件</strong>:</li>
-</ol>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash"> extract-file|ef &lt;archive&gt; &lt;filename&gt;  extract one file from archive</span></span><br><span class="line">asar extract-file app.asar(源asar文件) file.*(目标文件)</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p><strong>相关文档</strong>：<br><a target="_blank" rel="noopener" href="https://electron.nodejs.cn/docs/latest/tutorial/asar-archives/">Electron Asar 归档</a></p>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
     </div>
 
@@ -255,21 +236,17 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Asar/" rel="tag"># Asar</a>
-              <a href="/tags/%E6%89%A9%E5%B1%95%E5%AD%A6%E4%B9%A0/" rel="tag"># 扩展学习</a>
+              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2024/06/30/Hexo/" rel="prev" title="初见 hexo">
-                  <i class="fa fa-angle-left"></i> 初见 hexo
-                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2024/07/07/Npm-%E5%BC%BA%E5%88%B6%E4%B8%8E%E5%85%BC%E5%AE%B9%E5%AE%89%E8%A3%85/" rel="next" title="Npm-强制与兼容安装">
-                  Npm-强制与兼容安装 <i class="fa fa-angle-right"></i>
+                <a href="/2024/06/29/asar-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/" rel="next" title="Asar 文件的解压缩">
+                  Asar 文件的解压缩 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>

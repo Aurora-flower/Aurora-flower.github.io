@@ -179,9 +179,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2024-07-07 08:11:41 / 修改时间：14:52:32" itemprop="dateCreated datePublished" datetime="2024-07-07T08:11:41+08:00">2024-07-07</time>
+      <time title="创建时间：2024-07-07 08:11:41" itemprop="dateCreated datePublished" datetime="2024-07-07T08:11:41+08:00">2024-07-07</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-07-08 00:56:01" itemprop="dateModified" datetime="2024-07-08T00:56:01+08:00">2024-07-08</time>
     </span>
 
   
@@ -205,11 +211,13 @@
 <li><strong>清理缓存（可选）</strong>：</li>
 </ol>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm cache clean --force</span><br></pre></td></tr></table></figure>
+
 <p><em>Tip: 清理 npm 的缓存有时可以帮助解决一些依赖项安装时的问题。</em></p>
 <ol start="3">
 <li><strong>更新依赖项</strong>：</li>
 </ol>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm update</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新所有的依赖项到它们的最新主要版本（Major version）</span></span><br><span class="line">npm update --major</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm update</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新所有的依赖项到最新主要版本（Major version）</span></span><br><span class="line">npm update --major</span><br></pre></td></tr></table></figure>
+
 <p>Tip: 将会更新所有的依赖项到符合 <code>package.json</code> 中指定版本规则的最新版本。</p>
 <ol start="4">
 <li><p><strong>检查和解决冲突</strong>：</p>
@@ -270,9 +278,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2024-07-07 08:02:30 / 修改时间：14:54:49" itemprop="dateCreated datePublished" datetime="2024-07-07T08:02:30+08:00">2024-07-07</time>
+      <time title="创建时间：2024-07-07 08:02:30" itemprop="dateCreated datePublished" datetime="2024-07-07T08:02:30+08:00">2024-07-07</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-07-08 00:56:01" itemprop="dateModified" datetime="2024-07-08T00:56:01+08:00">2024-07-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -294,7 +308,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>在使用 npm（Node Package Manager）时，在依赖安装处理版本冲突或不兼容性问题时，如何合理使用<code>--force</code>和<code>--legacy-peer-deps</code>参数，以及它们可能带来的风险和替代解决方案。</p>
+          <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>在使用 npm（Node Package Manager）时，在依赖安装处理版本冲突或不兼容性问题时，如何合理使用<code>--force</code>和<code>--legacy-peer-deps</code>参数，以及可能带来的风险和替代解决方案。</p>
 <h3 id="使用-force参数"><a href="#使用-force参数" class="headerlink" title="使用--force参数"></a>使用<code>--force</code>参数</h3><h4 id="功能概述"><a href="#功能概述" class="headerlink" title="功能概述"></a>功能概述</h4><p><code>--force</code>参数允许强制安装依赖项，通常用于解决版本依赖关系上的问题。</p>
 <h4 id="风险警示"><a href="#风险警示" class="headerlink" title="风险警示"></a>风险警示</h4><ul>
 <li><strong>安全性风险</strong>：可能引入已知的安全漏洞。</li>
@@ -316,7 +330,7 @@
 <li>调整依赖配置，避免使用过时的对等依赖声明。</li>
 <li>评估依赖树，识别并解决潜在的兼容性问题。</li>
 </ul>
-<h4 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h4><p>尽管<code>--force</code>和<code>--legacy-peer-deps</code>参数在某些情况下可以解决问题，但它们应作为最后的手段。优先考虑更新依赖、精确指定版本和使用 npm 审计功能，可以有效避免使用这些强制选项，同时保持项目的稳定性和安全性，确保项目的健康和可维护性。</p>
+<h4 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h4><p>尽管<code>--force</code>和<code>--legacy-peer-deps</code>参数在某些情况下可以解决问题，但应作为最后的手段。优先考虑更新依赖、精确指定版本和使用 npm 审计功能，可以有效避免使用这些强制选项，同时保持项目的稳定性和安全性，确保项目的健康和可维护性。</p>
 
       
     </div>
@@ -343,7 +357,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://aurora-flower.github.io/2024/06/30/Asar-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
+    <link itemprop="mainEntityOfPage" href="https://aurora-flower.github.io/2024/06/29/asar-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -361,7 +375,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/06/30/Asar-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/" class="post-title-link" itemprop="url">Asar 文件的解压缩</a>
+          <a href="/2024/06/29/asar-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/" class="post-title-link" itemprop="url">Asar 文件的解压缩</a>
         </h2>
 
         <div class="post-meta-container">
@@ -379,7 +393,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-07-07 08:12:41" itemprop="dateModified" datetime="2024-07-07T08:12:41+08:00">2024-07-07</time>
+      <time title="修改时间：2024-07-08 00:56:01" itemprop="dateModified" datetime="2024-07-08T00:56:01+08:00">2024-07-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -409,18 +423,15 @@
 </blockquote>
 <h4 id="安装-asar-工具"><a href="#安装-asar-工具" class="headerlink" title="安装 asar 工具"></a>安装 asar 工具</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">全局安装</span></span><br><span class="line">npm install -g asar</span><br></pre></td></tr></table></figure>
 
-
 <h4 id="压缩与解压"><a href="#压缩与解压" class="headerlink" title="压缩与解压"></a>压缩与解压</h4><ol>
 <li><strong>解压</strong>:</li>
 </ol>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash"> extract|e &lt;archive&gt; &lt;dest&gt;            extract archive</span></span><br><span class="line">asar extract app.asar(源asar文件) app(目标解压文件夹)</span><br></pre></td></tr></table></figure>
 
-
 <ol start="2">
 <li><strong>压缩</strong>:</li>
 </ol>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash"> pack|p [options] &lt;<span class="built_in">dir</span>&gt; &lt;output&gt;       create asar archive</span></span><br><span class="line">asar pack app(目标解压文件夹) app.asar(源asar文件)</span><br></pre></td></tr></table></figure>
-
 
 <h3 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h3><ol>
 <li><strong>列出归档文件与目录</strong>:</li>
@@ -460,7 +471,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://aurora-flower.github.io/2024/06/30/Hexo/">
+    <link itemprop="mainEntityOfPage" href="https://aurora-flower.github.io/2024/06/29/Hexo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -478,7 +489,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/06/30/Hexo/" class="post-title-link" itemprop="url">初见 hexo</a>
+          <a href="/2024/06/29/Hexo/" class="post-title-link" itemprop="url">初见 hexo</a>
         </h2>
 
         <div class="post-meta-container">
@@ -496,7 +507,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-07-07 08:12:38" itemprop="dateModified" datetime="2024-07-07T08:12:38+08:00">2024-07-07</time>
+      <time title="修改时间：2024-07-08 00:56:01" itemprop="dateModified" datetime="2024-07-08T00:56:01+08:00">2024-07-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
