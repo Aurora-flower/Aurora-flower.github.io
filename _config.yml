@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 花楹一间  # 标题
-subtitle: HuaYin Notes blog  # 副标题
-description: Aurora-flower - 用于记录的个人 Blog 网站  # 描述
+title: 花楹一间 # 标题
+subtitle: HuaYin Notes blog # 副标题
+description: Aurora-flower - 用于记录的个人 Blog 网站 # 描述
 keywords: 花楹一间# 关键字
 author: Aurora-flower # 作者
-language: zh-CN  # 语言
-timezone: 'Asia/Shanghai' # 时区
+language: zh-CN # 语言
+timezone: "Asia/Shanghai" # 时区
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -21,7 +21,7 @@ pretty_urls: # 将永久链接变量重写为漂亮的网址
   trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory 目录
-source_dir: source  # 源文件夹。内容的存储位置
+source_dir: source # 源文件夹。内容的存储位置
 public_dir: public # 公用文件夹。静态站点的生成位置
 tag_dir: tags # 标签目录
 archive_dir: archives # 存档目录
@@ -37,9 +37,9 @@ titlecase: false # 	将标题转换为标题大小写 - Transform title into tit
 external_link:
   enable: true # 在新标签页中打开外部链接 - Open external links in new tab
   field: site # 适用于全部或仅适用于 site post - Apply to the whole site
-  exclude: '' # 排除主机名。指定子域（如果适用），包括www
+  exclude: "" # 排除主机名。指定子域（如果适用），包括www
 filename_case: 0 # 将文件名转换为小写; 大写12
-render_drafts: false  # 渲染（显示）草稿
+render_drafts: false # 渲染（显示）草稿
 post_asset_folder: true # 是否启用资产文件夹
 marked:
   prependRoot: true # 前置根
@@ -50,27 +50,27 @@ highlight: # 代码块语法突出显示设置
   enable: true # 使
   line_number: true # 行号
   auto_detect: ture # 自动检测
-  tab_replace: '' # 选项卡替换
+  tab_replace: "" # 选项卡替换
   wrap: true # 包装
   hljs: false
 prismjs: # 棱镜 - 代码块语法突出显示设置
   enable: false
   preprocess: true # 预处理
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator: # 生成帖子存档，由六角形生成器索引提供支持
-  path: '' # 生成帖子存档，由六角形生成器索引提供支持
+  path: "" # 生成帖子存档，由六角形生成器索引提供支持
   per_page: 10 # 每页显示的帖子数
   order_by: -date # 发布顺序。默认情况下按降序日期（从新到旧）排序。
   pagination_dir: # URL 格式
 
 # Category & Tag
-default_category: uncategorized  # 默认类别
+default_category: uncategorized # 默认类别
 category_map: # 类别 映射
 tag_map: # 标签 映射
 
@@ -88,8 +88,7 @@ time_format: HH:mm:ss # 时间格式
 # mtime：使用文件修改日期作为 。这是自 3.0.0 以来 Hexo 的默认行为 updated
 # date：用作 。当文件修改日期可能不同时，通常与 Git 工作流一起使用。date updated
 # empty：未提供时只需删除即可。可能与大多数主题和插件不兼容。updated
-updated_option: 'mtime' # 控制前言中未提供的值
-
+updated_option: "mtime" # 控制前言中未提供的值
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -117,4 +116,3 @@ deploy:
   #  repository: https://github.com/Aurora-flower/Aurora-flower.github.io.git
   repository: git@github.com:Aurora-flower/Aurora-flower.github.io.git
   branch: gh-pages
-
