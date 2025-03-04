@@ -30,7 +30,6 @@
   },
   "devDependencies": {
     "hexo-cli": "^4.3.2",
-    "hexo-theme-next": "^8.22.0",
-    "prettier": "^3.5.3"
+    "hexo-theme-next": "^8.22.0"
   }
 }

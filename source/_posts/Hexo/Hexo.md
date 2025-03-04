@@ -3,7 +3,7 @@ layout: post
 title: 初见 hexo
 date: 2024-06-30 04:40:12
 categories: [初见 hexo]
-tags: [Hexo]
+tags: [Extend]
 ---
 
 ## 前言
@@ -15,10 +15,10 @@ hexo 是一个快速、简洁且高效的博客框架。
 ### 创建新文章
 
 ```shell
-hexo new "我的新文章"
+hexo new [title]
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+更多信息: [Writing](https://hexo.io/docs/writing.html)
 
 ### 使用草图
 
@@ -36,7 +36,7 @@ hexo publish draft 草稿文件ID # 发布草稿
 hexo server
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+更多信息: [Server](https://hexo.io/docs/server.html)
 
 ### 生成静态文件
 
@@ -44,7 +44,7 @@ More info: [Server](https://hexo.io/docs/server.html)
 hexo generate
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+更多信息: [Generating](https://hexo.io/docs/generating.html)
 
 ### 部署到远程站点
 
@@ -52,4 +52,4 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 hexo deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+更多信息: [Deployment](https://hexo.io/docs/one-command-deployment.html)
