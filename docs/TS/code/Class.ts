@@ -7,10 +7,10 @@ abstract class Animal {
   protected age: number;
 
   // private 属性: 私有属性，仅在类内部可访问
-  private id: number;
+  private readonly id: number;
 
   // 构造函数: 用于初始化类的属性
-  constructor(species: string, age: number, id: number) {
+  protected constructor(species: string, age: number, id: number) {
     this.species = species;
     this.age = age;
     this.id = id;
@@ -79,6 +79,7 @@ class Cat extends Animal {
 // 使用 Dog 类
 const dog = new Dog('Golden Retriever', 5, 1);
 dog.getId();
+dog.getAge();
 console.log(dog.describe()); // 输出: Golden Retriever is 5 years old and it says "Woof!"
 console.log(Dog.speciesType); // 输出: Mammal
 

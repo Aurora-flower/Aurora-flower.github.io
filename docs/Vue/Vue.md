@@ -4,17 +4,17 @@
 
 ### 项目创建
 
-```bash
+```shell
 # 安装最新的 node.js（16.0 或更高版本的）后，执行下面的语句
 npm create vue@latest
 ```
 
-```bash
+```shell
 #将应用发布到生产环境时
 npm run build
 ```
 
-```bash
+```shell
 # 需要安装 Node.js 及 sever
 npm install serve
 

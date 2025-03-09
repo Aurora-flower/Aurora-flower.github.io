@@ -6,7 +6,7 @@
 
 ---
 
-## 相关文档
+## 相关链接🔗
 
-[Iconify](https://icon-sets.iconify.design)
-[官方文档](https://iconify.design/docs/)
+- [Iconify 图标设计](https://icon-sets.iconify.design)
+- [Iconify 官网文档- 英文](https://iconify.design/docs/)

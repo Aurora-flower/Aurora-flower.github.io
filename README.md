@@ -9,7 +9,7 @@ hexo 是一个快速、简洁且高效的博客框架，选择 hexo 来搭建我
 ### 创建新文章
 
 ```shell
-hexo new "我的新文章"
+hexo new [layout] "我的新文章"
 ```
 
 更多信息: [Writing](https://hexo.io/docs/writing.html)

@@ -29,7 +29,7 @@ export default {
     Son,
     Daughter,
   },
-  // 在 Vue.js 中，我们可以通过 ref 引用来获取到子组件实例，并直接操作它的数据。
+  // 在 Vue.js 中，可以通过 ref 引用来获取到子组件实例，并直接操作它的数据。
   methods: {
     borrowMoneySon(num) {
       // $refs 用于获取到组件实例（区别于之前只用来获取 DOM 元素）

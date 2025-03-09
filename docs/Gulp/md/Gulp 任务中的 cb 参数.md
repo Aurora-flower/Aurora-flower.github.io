@@ -13,12 +13,12 @@
    Gulp 任务默认是异步执行的，必须通过某种方式告诉 Gulp "任务已完成"。`cb` 回调函数就是其中一种通知机制。
 
 2. **强制信号**  
-   调用 `cb()` 相当于向 Gulp 发送信号：
+   调用 `cb()` 相当于向 Gulp 发送信号: 
 
    ```javascript
    function task(cb) {
      // 任务逻辑...
-     cb(); // ⬅️ 此处告诉 Gulp：任务已完成
+     cb(); // ⬅️ 此处告诉 Gulp: 任务已完成
    }
    ```
 
@@ -70,7 +70,7 @@ function errorTask(cb) {
 
 ### 三、为什么需要回调机制？
 
-Gulp 的底层原理决定了它需要明确的完成信号：
+Gulp 的底层原理决定了它需要明确的完成信号: 
 
 | 任务类型     | 完成信号方式       |
 | ------------ | ------------------ |
@@ -105,7 +105,7 @@ function asyncClean(cb) {
 
 ### 五、现代 Gulp 的更优写法
 
-建议优先使用 **async/await** 或 **Promise** 替代回调模式：
+建议优先使用 **async/await** 或 **Promise** 替代回调模式: 
 
 ```javascript
 const { promisify } = require('util');
@@ -124,7 +124,7 @@ exports.clean = modernClean;
 
 ### 六、为什么示例代码中需要 `cb`？
 
-在默认的 `series()` 组合中：
+在默认的 `series()` 组合中: 
 
 ```javascript
 exports.default = series(clean, build);

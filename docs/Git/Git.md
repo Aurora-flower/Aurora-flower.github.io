@@ -1,10 +1,4 @@
----
-title: Git
-date: 2025-03-04 15:18:38
-tags: [Git]
-categories: [Basic]
----
-
+# Git
 
 ## 前言
 

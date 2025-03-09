@@ -11,7 +11,7 @@
 
 Babel 将新的 JavaScript 特性（例如箭头函数、类、模板字符串、async/await、解构赋值等）转换为较旧的 JavaScript 语法，这样即使在不支持这些新特性的浏览器中，代码仍能正常运行。
 
-例如：
+例如: 
 
 ```javascript
 const greet = () => {
@@ -19,7 +19,7 @@ const greet = () => {
 };
 ```
 
-Babel 会将其转换为：
+Babel 会将其转换为: 
 
 ```javascript
 var greet = function () {
@@ -38,13 +38,13 @@ var greet = function () {
 对于 React 项目，Babel 可以将 JSX 语法（React 特有的 HTML 类似语法）转换为普通的 JavaScript。
 JSX 本身浏览器不能理解，因此 Babel 会把 JSX 转换为 `React.createElement()` 形式的 JavaScript 代码。
 
-例如：
+例如: 
 
 ```jsx
 const element = <h1>Hello, world!</h1>;
 ```
 
-Babel 会将其转换为：
+Babel 会将其转换为: 
 
 ```javascript
 const element = React.createElement('h1', null, 'Hello, world!');
@@ -62,8 +62,8 @@ Babel 可以通过 polyfill 来支持一些新的 JavaScript 特性（如 Promis
 
 Babel 通过插件和预设来扩展其功能。插件可以转换特定的 JavaScript 语法，预设是插件的集合。
 
-最常见的预设包括：
+最常见的预设包括: 
 
-- `@babel/preset-env`：根据目标环境自动选择需要的插件和转换方法，支持现代 JavaScript 特性的转换。
-- `@babel/preset-react`：专门用于将 JSX 转换为 JavaScript。
-- `@babel/preset-typescript`：用于支持 TypeScript 的转换。
+- `@babel/preset-env`: 根据目标环境自动选择需要的插件和转换方法，支持现代 JavaScript 特性的转换。
+- `@babel/preset-react`: 专门用于将 JSX 转换为 JavaScript。
+- `@babel/preset-typescript`: 用于支持 TypeScript 的转换。

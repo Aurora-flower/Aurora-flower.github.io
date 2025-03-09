@@ -1,4 +1,9 @@
-# TypeScript
+---
+title: TS
+tags: [TypeScript]
+categories: [TypeScript]
+date: 2025-03-08 10:32:44
+---
 
 ## 引言
 

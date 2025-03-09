@@ -11,7 +11,7 @@ tsconfig.json
   "compilerOptions": {
     /* 
         启用严格模式 - 启用所有严格类型检查选项
-        启用 --strict 相当于启用：
+        启用 --strict 相当于启用:
         --noImplicitAny, 
         --noImplicitThis, 
         --alwaysStrict,
