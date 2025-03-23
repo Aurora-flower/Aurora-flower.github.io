@@ -22,22 +22,22 @@
     <meta name="description" content="引言 ASAR（Archive for ASar）归档是一种专为 Electron 应用设计的简单扩展存档格式。它旨在缓解 Windows 平台上的长路径名问题，提升require速度，并保护源代码不被轻易修改。   ASAR 通过将文件夹结构打包成一个二进制文件，简化了 Electron 应用的资源文件管理。这种格式便于分发和部署应用，同时也提供了性能和安全性方面的改善。 使用 ASAR 格式的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ASAR 文件的解压缩">
-<meta property="og:url" content="https://aurora-flower.github.io/2024/06/30/ASAR-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
+<meta property="og:url" content="https://aurora-flower.github.io/2024/06/29/ASAR-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
 <meta property="og:site_name" content="花楹一间">
 <meta property="og:description" content="引言 ASAR（Archive for ASar）归档是一种专为 Electron 应用设计的简单扩展存档格式。它旨在缓解 Windows 平台上的长路径名问题，提升require速度，并保护源代码不被轻易修改。   ASAR 通过将文件夹结构打包成一个二进制文件，简化了 Electron 应用的资源文件管理。这种格式便于分发和部署应用，同时也提供了性能和安全性方面的改善。 使用 ASAR 格式的">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-06-29T20:58:07.000Z">
-<meta property="article:modified_time" content="2025-03-07T05:44:47.781Z">
+<meta property="article:modified_time" content="2025-03-23T06:55:14.957Z">
 <meta property="article:author" content="Aurora-flower">
 <meta property="article:tag" content="Asar">
 <meta property="article:tag" content="Electron">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://aurora-flower.github.io/2024/06/30/ASAR-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
+<link rel="canonical" href="https://aurora-flower.github.io/2024/06/29/ASAR-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://aurora-flower.github.io/2024/06/30/ASAR-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/","path":"2024/06/30/ASAR-文件的解压缩/","title":"ASAR 文件的解压缩"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://aurora-flower.github.io/2024/06/29/ASAR-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/","path":"2024/06/29/ASAR-文件的解压缩/","title":"ASAR 文件的解压缩"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>ASAR 文件的解压缩 | 花楹一间</title>
@@ -119,16 +119,16 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">分类</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -155,7 +155,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://aurora-flower.github.io/2024/06/30/ASAR-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
+    <link itemprop="mainEntityOfPage" href="https://aurora-flower.github.io/2024/06/29/ASAR-%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -191,7 +191,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-03-07 13:44:47" itemprop="dateModified" datetime="2025-03-07T13:44:47+08:00">2025-03-07</time>
+      <time title="修改时间：2025-03-23 14:55:14" itemprop="dateModified" datetime="2025-03-23T14:55:14+08:00">2025-03-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -223,6 +223,8 @@
 <hr>
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">全局安装</span></span><br><span class="line">npm install -g asar</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">局部安装</span></span><br><span class="line">npm install -D asar</span><br></pre></td></tr></table></figure>
 
+<hr>
+<hr>
 <h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><h4 id="解压缩"><a href="#解压缩" class="headerlink" title="解压缩"></a>解压缩</h4><ol>
 <li><p><strong>解压</strong>:</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash"> extract|e &lt;archive&gt;(asar 文件) &lt;dest&gt;(目标解压文件夹)</span></span><br><span class="line">asar extract [archive] [dest]</span><br></pre></td></tr></table></figure>
