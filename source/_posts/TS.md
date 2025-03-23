@@ -65,7 +65,7 @@ const language: Language = Language.ZH;
 
 ---
 
-### 函数类型与接口 - 规范代码的 "契约"。
+### 函数类型与接口 - 规范代码的 "契约"
 
 1. 函数类型
 
@@ -159,10 +159,10 @@ class Logger implements Loggable {
 基本语法: 泛型使用尖括号 `<>` 来定义。
 
 典型场景:
+
 - **集合操作**：例如数组、链表等的操作，可以使用泛型来定义通用的集合处理函数。
 - **表单处理**：在表单处理中，可能需要处理不同类型的字段和验证逻辑，泛型能够帮助保持类型安全并且避免重复代码。
 - **API 请求响应**：对于不同的 API 请求，响应可能是不同的类型，泛型可以帮助处理不同类型的请求和响应。
-
 
 - **泛型函数**
 
@@ -277,7 +277,7 @@ type Developer = Person & { expertise: string };
     ```typescript
     let someValue: unknown = "Hello, world!";
     const len: number = (<string>input).length;
-    ```   
+    ```
 
 - **`as` 语法**（推荐）
 
@@ -304,7 +304,7 @@ type Developer = Person & { expertise: string };
             console.log(value.toFixed(2)); // `value` 在这里被推断为 `number` 类型
         }
     }
-    ``` 
+    ```
 
 - **`instanceof` 类型守卫**
 
@@ -580,7 +580,7 @@ tsconfig.json
     /* 禁用在函数类型里对泛型签名进行严格检查 */
     // "noStrictGenericChecks": false,
 
-    /* 	
+    /*
         模块名到基于 baseUrl 的路径映射的列表 (tsconfig.json 配置)
         @link https://www.tslang.cn/docs/handbook/module-resolution.html#path-mapping
     */
@@ -645,4 +645,3 @@ tsconfig.json
 ## 相关链接🔗
 
 - [Ts 官网文档 - 中文](https://www.tslang.cn/)
-
