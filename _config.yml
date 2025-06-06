@@ -48,12 +48,16 @@ syntax_highlighter: highlight.js # 代码块的设置
 highlight: # 代码块的设置
   line_number: true
   auto_detect: false
+  line_threshold: 0
   tab_replace: ''
+  exclude_languages:
+    - example
   wrap: true
-  hljs: true 
+  hljs: false 
 prismjs: # 代码块的设置
   preprocess: true
   line_number: true
+  line_threshold: 0
   tab_replace: ''
 
 # Home page setting
