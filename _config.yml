@@ -50,7 +50,7 @@ highlight: # 代码块的设置
   auto_detect: false
   tab_replace: ''
   wrap: true
-  hljs: false 
+  hljs: true 
 prismjs: # 代码块的设置
   preprocess: true
   line_number: true
@@ -105,4 +105,7 @@ theme_config: # 主题的配置文件 - 会覆盖主题目录下的 _config.yml 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy: # 部署部分的设置
-  type: ''
+  type: 'git'
+  #  repository: https://github.com/Aurora-flower/Aurora-flower.github.io.git
+  repository: git@github.com:Aurora-flower/Aurora-flower.github.io.git
+  branch: gh-pages
