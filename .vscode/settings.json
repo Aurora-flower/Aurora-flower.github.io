@@ -1,0 +1,22 @@
+{
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "editor.formatOnPaste": false,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifierEnding": "auto",
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "prettier.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit",
+    "source.fixAll.biome": "explicit"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".gitignore": ".git*",
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*"
+  },
+}
